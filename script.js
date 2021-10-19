@@ -1,6 +1,3 @@
-//api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}&units=imperial
-//ce4aca77555b8eeebd18ec9093e4f202
-
 let API_KEY = "            ";
 
 
