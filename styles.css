@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+    text-align: center;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://images.hdqwalls.com/download/weather-and-sky-4k-nb-1600x900.jpg');
+}
+
+.container {
+    background: #000000d0;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+}
+
+
+#heading {
+    color: white;
+}
+
+input[type="text"] {
+    text-align: left;
+    border: none;
+    outline: none;
+    padding: 0.4em 1em;
+    border-radius: 24px;
+    background: #7c7c7c2b;
+    color: rgba(245, 245, 245, 0.281);
+    /* font-family: inherit; */
+    font-size: 105%;
+    font-weight: bolder;
+    width: calc(100% - 100px);
+}
+
+input:focus {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    /* border-color: white; */
+    /* outline: 0; */
+    /* box-shadow: 0 0 0 0.2rem rgba(220, 231, 65, 0.918); */
+}
+
+/* #btn{
+    background-color:white;
+    height: 1.5em;
+    width: 1.5em;
+    color: whitesmoke;
+    font-size: 1.1rem;
+    outline: none;
+    border-radius: 8px;
+    font-weight: 600;
+    border: none;
+} */
+
+button {
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 44px;
+    width: 44px;
+    outline: none;
+    background: #7c7c7c2b;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+button:hover{
+    background: #7c7c7c6b;  
+}
+
+.result {
+    color: white;
+}
