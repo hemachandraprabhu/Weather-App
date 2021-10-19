@@ -1,6 +1,5 @@
 let API_KEY = "            ";
 
-
 document.getElementById("btn").addEventListener("click", searchCity);
 function searchCity(){
     const city = document.getElementById("city-input").value;
@@ -27,7 +26,6 @@ getWeatherData = (city) =>{
            return response.json();
     })
 }
-
 
 
 showWeatherData = (weatherData) => {
